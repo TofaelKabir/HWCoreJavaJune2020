@@ -1,5 +1,7 @@
-package hw4Q2Abstraction02.copy;
+package hw5Q2Abstraction03;
 
+//extends and implements keyword is used in Java, but in an Abstract class, implements keyword is used
+//to inherit Interface and extends keywords to inherit a regular class or an abstract class.
 public abstract class EngineeringSchool extends NYUniversity {
 	// extends keyword is used to inherit a regular class or an abstract class in abstract class
 	// here it extends a regular class
