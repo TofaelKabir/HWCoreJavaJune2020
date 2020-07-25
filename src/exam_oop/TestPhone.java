@@ -91,7 +91,6 @@ public class TestPhone {
 		System.out.println(ip6.getInfo() + ", The price was : " + ip6.getPrice() + "$, user's sex: " + ip6.getUser()
 				+ " and boolean value for made in USA is: " + ip6.isMadeInUSA());
 
-		
 		System.out.println("\n-------------- Use of super in Java Inheritance  ------------------\n");
 		Iphone2 ip21 = new Iphone2();
 		System.out.println("\n");
@@ -102,8 +101,7 @@ public class TestPhone {
 		ip21.iPhone2Info();
 		System.out.println("\n");
 		ip21.iPhone2Info('M');
-		
-		
+
 		System.out.println("\n------------------ Java polymorphism is initialized here  ---------------------\n");
 		ip6.materials();
 		ip6.materials(200, 100);
@@ -111,20 +109,20 @@ public class TestPhone {
 		ip6.materials(200, 100, "60", 120);
 		ip6.materials(200, 100, "60", 120, 20);
 		System.out.println("\n");
-		
+
 		ConfiguedIphone6 cip6 = new ConfiguedIphone6();
 		System.out.println("\n");
 		cip6.materials();
 		cip6.materials(200, 100);
 		cip6.materials(200, 100, "60", 120, 20);
-		
-/*
-hierarchical inheritance: Iphone2 extends Iphone1 , Iphone3 extends Iphone1.
-multilevel inheritance: Iphone6 extends Iphone5 , Iphone5 extends Iphone4, Iphone4 extends Iphone2 , Iphone2 extends Iphone1.
-single inheritance: Iphone6 extends Iphone5, Iphone2 extends Iphone1 , Iphone4 extends Iphone2.
-* */
-		
-		
+
+		/*
+		 * hierarchical inheritance: Iphone2 extends Iphone1 , Iphone3 extends Iphone1.
+		 * multilevel inheritance: Iphone6 extends Iphone5 , Iphone5 extends Iphone4,
+		 * Iphone4 extends Iphone2 , Iphone2 extends Iphone1. single inheritance:
+		 * Iphone6 extends Iphone5, Iphone2 extends Iphone1 , Iphone4 extends Iphone2.
+		 */
+
 	}
 
 }
